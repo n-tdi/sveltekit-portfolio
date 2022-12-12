@@ -4,7 +4,7 @@
 
 <div class="container">
     <div class="project">
-        <h2 class="proj--title">Projects</h2>
+        <h2 class="proj--title">PROJECTS</h2>
         <Project />
     </div>
     <div class="bad--size">

@@ -12,7 +12,7 @@
     <div class="container--bottom">
         <a href="mailto:me@ntdi.world" target="_blank" class="container--email hunder">me@ntdi.world</a>
         <p class="container--links">
-            <a href="https://github.com/professional-tdi" target="_blank" class="container--link hunder">Github</a> | <a href="https://www.spigotmc.org/members/ntdi.1414970/" target="_blank" class="container--link hunder">Spigot</a>
+            <a href="https://github.com/n-tdi" target="_blank" class="container--link hunder">Github</a> | <a href="https://www.spigotmc.org/members/ntdi.1414970/" target="_blank" class="container--link hunder">Spigot</a>
         </p>
     </div>
 </div>

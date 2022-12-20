@@ -13,6 +13,10 @@
             on:click={() => current = 'tazpvp'}
             >Tazpvp</button>
             <button 
+            class="proj--select {current === 'Tia' ? 'proj--selected' : ''}"
+            on:click={() => current = 'Tia'}
+            >Tazpvp</button>
+            <button 
             class="proj--select {current === 'ldsync' ? 'proj--selected' : ''}"
             on:click={() => current = 'ldsync'}
             >LDSync</button>
@@ -39,6 +43,13 @@
                     <ProjectItem title={"TAZPVP"} languages={"Java, Spigot, PostgresSQL"} body={
                     "Tazpvp is a Minecraft server that has had thousands of players online simultaneously. Tazpvp has unique pvp progression and game mechanics, making it stand out from other servers. *I've worked on Tazpvp for four months and contributed more than 20,000 lines of code."
                     } githubURL={"https://github.com/tazpvp/tazpvp"}/>
+                </div>
+            {/if}
+            {#if current === 'Tia'}
+                <div class="proj--container" in:fade={{duration: 100}}>
+                    <ProjectItem title={"TIA"} languages={"Node.js, ExpressJS, PUG, AWS, Ubuntu, Apache2"} body={
+                    "Tia is my kitty! I love Tia alot so I decided to make her an ExpressJS API! *The API can be view at https://tia.ntdi.world *I use a AWS EC2 instance to host this api. *For hosting the site, I use a library called PUG to host and feed the server the page. *Overall this project was super fun."
+                    } githubURL={"https://github.com/n-tdi/tia"}/>
                 </div>
             {/if}
             {#if current === 'ldsync'}

@@ -15,7 +15,7 @@
             <button 
             class="proj--select {current === 'Tia' ? 'proj--selected' : ''}"
             on:click={() => current = 'Tia'}
-            >Tazpvp</button>
+            >Tia</button>
             <button 
             class="proj--select {current === 'ldsync' ? 'proj--selected' : ''}"
             on:click={() => current = 'ldsync'}
